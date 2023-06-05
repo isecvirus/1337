@@ -176,14 +176,3 @@ class L337
     @password
   end
 end
-
-=begin
-  passwords = ["password", "secret", "strong", "hacker", "master", "account"]
-
-  passwords.each do |password|
-    leet = L337.new(password)
-    leet.basic
-
-    puts("#{leet.power.to_s.rjust(3, ' ')} - #{leet.get}")
-  end
-=end
