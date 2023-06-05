@@ -33,6 +33,9 @@ from chars import (basic_leet, moderate_leet, advanced_leet, emoji_leet, currenc
 
 
 class L33T(str):
+    min_level = 1
+    max_level = 9
+
     def __init__(self, password: str = super):
         self.password: str = password
 
