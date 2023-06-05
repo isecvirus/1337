@@ -126,14 +126,3 @@ class L33T(str):
 
     def get(self):
         return self.password
-
-
-"""
-    passwords = ["password", "secret", "strong", "hacker", "master", "account"]
-
-    for p in passwords:
-        leet = L33T(p)
-        leet.basic()
-
-        print(f"{leet.power().__str__().rjust(3, ' ')} - {leet.get()}")
-"""
