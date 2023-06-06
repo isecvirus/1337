@@ -1,0 +1,31 @@
+{
+  "name": "1337",
+  "version": "1.0.0",
+  "description": "1337 is a cross-platform password leeting tool",
+  "main": "l337.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isecvirus/1337.git"
+  },
+  "keywords": [
+    "ruby",
+    "python",
+    "java",
+    "typescript",
+    "javascript",
+    "password",
+    "bruteforce",
+    "hack",
+    "attack",
+    "crack"
+  ],
+  "author": "virus",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/isecvirus/1337/issues"
+  },
+  "homepage": "https://github.com/isecvirus/1337#readme"
+}
