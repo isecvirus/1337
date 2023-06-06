@@ -1,4 +1,4 @@
-# 1337 (v1.1.0)
+# 1337 (v1.0.0)
 
 =begin
 Copyright (c) 2023 Virus. All rights reserved.
