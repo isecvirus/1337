@@ -18,11 +18,11 @@ import static org.virus.l337.chars.emoji_leet;
  *
  * @author virus
  */
-public class l337 {
+public class L337 {
 
     static String password;
 
-    public l337(String password) {
+    public L337(String password) {
         this.password = password;
     }
 
