@@ -3,3 +3,11 @@
 
 
 ## ```*Warning*   Go   isn't supported yet```
+- [x] Ruby
+- [x] Python
+- [x] Java
+- [x] Typescript
+- [x] Javascript
+- [x] Kotlin
+- [ ] Go
+- [ ] Julia
