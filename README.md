@@ -9,5 +9,5 @@
 - [x] Typescript
 - [x] Javascript
 - [x] Kotlin
-- [ ] Go
-- [ ] Julia
+- [ ] Go (10%)
+- [ ] Julia (65%)
