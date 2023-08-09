@@ -13,6 +13,75 @@
 |❌| Go 1.20.5           |           | 10%           | virus         |
 |➖| Julia 1.9.1         | 1.0.0     | 65%           | virus         |
 
+# 💭 Upcoming features
+- **update** method to update the password.
+```ruby
+password = "password"
+leet = L337.new(password)
+
+puts leet.get # password
+
+leet.update("new_password")
+
+puts leet.get # new_password
+```
+
+- **reset** method to reset the password to it's original.
+```ruby
+leet.reset
+
+puts leet.get # password
+```
+
+- **custom** method to pass a custom leet chars
+```ruby
+"""
+w=write
+a=append
+r=remove
+e=erase
+"""
+
+# write
+leet.custom({
+    :o => ['0'],
+    :i => ['1', '!'],
+    :l => ['1', '!'],
+    :r => ['2'],
+    :e => ['3'],
+    :s => ['5', '$'],
+    :b => ['6', '8'],
+    :t => ['7'],
+    :g => ['9'],
+    :a => ['@', '4']
+  }, "w")
+
+# append
+leet.custom({:o => ['0']}, "a")
+
+# remove
+leet.custom(:b => ['6', '8'], "r")
+
+# erase
+leet.custom("e")
+
+# Apply the custom chars on the password:
+leet.custom()
+```
+
+- **char** method to get the current used chars.
+```ruby
+class CHAR
+  BASIC = "basic"
+  MODERATE = "moderate"
+  ADVANCE = "advance"
+  CURRENCY = "currency"
+  EMOJI = "emoji"
+  CUSTOM = "custom"
+end
+
+leet.char(CHAR.EMOJI)
+```
 # 👷🏽‍♂️ Open for contribution
 
 # 🛠️ Bug fixes
