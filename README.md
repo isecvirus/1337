@@ -11,8 +11,8 @@
 |✅| Javascript 18.16.0  | 1.0.0     | 100%          | virus         |
 |✅| Kotlin 1.8.22       | 1.0.0     | 100%          | virus         |
 |➖| Julia 1.9.1         | 1.0.0     | 65%           | virus         |
-|❌| C 12.2.0            |           | 2%            | virus         |
 |❌| Go 1.20.5           |           | 10%           | virus         |
+|❌| C 12.2.0            |           | 2%            | virus         |
 
 # 💭 Upcoming features
 - **update** method to update the password.
