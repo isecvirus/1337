@@ -13,6 +13,9 @@
 |➖| Julia 1.9.1         | 1.0.0     | 65%           | virus         |
 |❌| Go 1.20.5           |           | 10%           | virus         |
 |❌| C 12.2.0            |           | 2%            | virus         |
+|❌| Php 0.0.0           |           | 0%            |               |
+|❌| Swift 0.0.0         |           | 0%            |               |
+|❌| Dart 0.0.0          |           | 0%            |               |
 
 # 💭 Upcoming features
 - **update** method to update the password.
